@@ -5,7 +5,7 @@ public class MovieBookingSystem {
     public String movieName;
 
     public void bookTicket(String movieName) throws MovieNotAvailableException {
-        System.out.println("Welcome to booking page. What movie would you like to watch?");
+        System.out.println("=== YORK CINEMA / BOOKING TICKET ===");
         ///Throws an IllegalArgumentException if movieName is null or empty.
         if (movieName == null || movieName.isEmpty()){
             throw new IllegalArgumentException("Movie name must be provided!");
